@@ -2,9 +2,9 @@
 **Goal**: Deploy a functional AD Domain Controller with users, OUs, and Group Policies.  
 
 ## **Steps**  
-1. **Promoted Server to Domain Controller**  
-   - Used `Install-WindowsFeature AD-Domain-Services`  
-   - Ran `dcpromo` GUI wizard (or PowerShell).
+1. **Installed Windows Server 2022 via Hyper-V  
+   - Used Hyper-V to Install SERVER_EVAL_x64FRE_en-us.ISO
+   - Installed Windows Server 2022 Datacenter Evaluation (Desktop Experience) x64
 
 2. **General Setup Procedures**
    - Checked for Windows Updates
