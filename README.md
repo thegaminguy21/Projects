@@ -1,8 +1,8 @@
-# Active Directory Setup on Windows Server 2022  
-**Goal**: Deploy a functional AD Domain Controller with users, OUs, and Group Policies.  
+# Active Directory Setup on Windows Server 2022 
+**Goal**: Deploy a functional AD Domain Controller with users, OUs, and Group Policies.
 
 ##  **Steps**
-1. **Installed Windows Server 2022 via Hyper-V  
+1. **Installed Windows Server 2022 via Hyper-V
    - Used Hyper-V to Install SERVER_EVAL_x64FRE_en-us.ISO
    - Installed Windows Server 2022 Datacenter Evaluation (Desktop Experience) x64
 
@@ -20,6 +20,9 @@
    - Domain name will be: Slaptop.com
    - Check DNS with the nslookup tool in PowerShell
    - Reboot the server to test new configurations
+   - Created Reverse Lookup Zone for Server
+  
+4. **
 
 
 
@@ -30,6 +33,6 @@
 - **Issue**: DNS resolution failed after restart.
 - **Fix**: Disabled DHCP and IPv6. Manually set IPv4 address in NIC settings.
   
-- **Issue**: DNS resolution failed after restart  
+- **Issue**: DNS resolution failed after restart
 - **Fix**: Manually set DNS in NIC settings.
 
